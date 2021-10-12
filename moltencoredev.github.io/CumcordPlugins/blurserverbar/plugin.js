@@ -1,0 +1,1 @@
+(function(){"use strict";let t=()=>{},e=!1,n;var o=d=>({onLoad(){n=async r=>{r.code=="F10"&&(r.preventDefault(),e=!e,t(),t=cumcord.patcher.injectCSS(`.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih {filter: blur(${e?.8:0}rem);}`))},document.addEventListener("keydown",n)},onUnload(){document.removeEventListener("keydown",n)}});return o})();
