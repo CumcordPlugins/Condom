@@ -1,0 +1,1 @@
+(function(){"use strict";let n;return{onLoad(){n=cumcord.patcher.injectCSS(".groupStart-23k01U:not(.message-2qnXI6){display: none;}")},onUnload(){n()}}})();
