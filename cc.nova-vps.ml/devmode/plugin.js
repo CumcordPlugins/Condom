@@ -1,0 +1,1 @@
+(function(e){"use strict";return{onLoad(){Object.defineProperty(e.webpackModules.findByProps("isDeveloper"),"isDeveloper",{configurable:!0,writable:!0,value:1})},onUnload(){Object.defineProperty(e.webpackModules.findByProps("isDeveloper"),"isDeveloper",{configurable:!0,writable:!0,value:0})}}})(cumcord.modules);
