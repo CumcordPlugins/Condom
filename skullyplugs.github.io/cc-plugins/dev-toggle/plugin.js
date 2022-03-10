@@ -1,0 +1,1 @@
+(function(n,o){"use strict";let e;var c=t=>({onLoad(){e=n.addCommand({name:"toggle-dev",description:"Toggles cumcord dev-mode",handler:(m,d)=>{try{o.toggleDevMode(),d(`Dev mode is now ${o.isEnabled?"on":"off"}.`)}catch{d("Dev mode is now off.")}}})},onUnload(){e?.()}});return c})(cumcord.commands,cumcord.dev);
