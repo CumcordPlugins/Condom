@@ -1,0 +1,1 @@
+(function(){"use strict";function e(n){(n.button===3||n.button===4)&&n.preventDefault()}var t={onLoad:()=>window.addEventListener("mouseup",e),onUnload:()=>window.removeEventListener("mouseup",e)};return t})();
