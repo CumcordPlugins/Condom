@@ -1,0 +1,1 @@
+(function(c,n){"use strict";let o;var t=d=>({onLoad(){const r=n.findByProps("patch");o=c.instead("patch",r,(e,s)=>{e[0].body?.theme&&e[0].url==="/users/@me/settings"||s(e)})},onUnload(){o?.()}});return t})(cumcord.patcher,cumcord.modules.webpack);
