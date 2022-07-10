@@ -1,1 +1,1 @@
-(function(){"use strict";let n;return{onLoad(){n=cumcord.patcher.injectCSS(".groupStart-23k01U:not(.message-2qnXI6){display: none;}")},onUnload(){n()}}})();
+(function(){"use strict";let n;var s={onLoad(){n=cumcord.patcher.injectCSS("div[class*='groupStart-']:not([class*='message-']){display: none;}")},onUnload(){n()}};return s})();
